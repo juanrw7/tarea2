@@ -33,6 +33,8 @@
 ## Launching the project
 Make sure the versions of the program match.
 
+Two ways to launch this project.
+
 ### To launch the project only using the ".lambda file"
 
 1. Launch Lambda Shell in your console.
