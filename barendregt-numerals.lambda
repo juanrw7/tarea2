@@ -1,0 +1,20 @@
+true = \x.\y.x;
+false = \x.\y.y;
+I = \x.x;
+
+zero = I;
+one = \z.z false zero;
+two = \z.z false one;
+
+Succ = \x.\z.z false x;
+Pred = \x.x false;
+IsZero = \x.x true;
+
+succZero = Succ zero;
+succOne = Succ one;
+
+predZero = Pred zero;
+predTwo = Pred two;
+
+isZeroZero = IsZero zero;
+isZeroOne = IsZero one;
