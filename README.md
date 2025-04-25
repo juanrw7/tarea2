@@ -27,6 +27,16 @@
 > ℹ️ You can also follow the instructions in the shared YouTube video:  
 > <https://www.youtube.com/watch?v=jRxm5sm1ChI>
 
+---
+
+## Description
+
+This project implements the encoding of natural numbers using Barendregt’s numerals in Lambda Calculus to build and prove the following combinators:
+- **Successor (`Succ`)**
+- **Predecessor (`Pred`)**
+- **Zero test (`IsZero`)**
+
+Each combinator is tested with at least two examples using a `.lambda` source file, executed via Lambda Shell.
 
 ---
 
